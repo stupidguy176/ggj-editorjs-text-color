@@ -1,0 +1,31 @@
+{
+  "name": "ggj-editorjs-text-color",
+  "version": "1.0.0",
+  "repository": "https://github.com/stupidguy176/ggj-editorjs-text-color.git",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "author": "An <hoaian176@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flaming-cl/editorjs-text-color-plugin/issues"
+  },
+  "homepage": "https://github.com/flaming-cl/editorjs-text-color-plugin#readme",
+  "keywords": [
+    "['editor'",
+    "'editorjs'",
+    "'text color picker']"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
